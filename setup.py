@@ -7,12 +7,12 @@ DIR=os.path.dirname(__file__)
 
 setup(
     name='TerminalMdB',
-    version='0.0.1',
+    version='0.0.2',
     description='CLI for IMDB',
     long_description=open(os.path.join(DIR, 'readme.md')).read(),
     author='Zac Ioannidis',
-    #author_email='',
-    #license=open('LICENSE').read(),
+    author_email='me@izac.us',
+    license=open(os.path.join(DIR, 'LICENSE')).read(),
     url='https://github.com/zacoppotamus/TerminaIMdB',
     classifiers=[
         'Development Status :: 4 - Beta',
